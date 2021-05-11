@@ -1,9 +1,9 @@
 <?php
 if (isset($_POST['Email'])) {
 
-    // EDIT THE 2 LINES BELOW AS REQUIRED
+
     $email_to = "kordvanialyssa@gmail.com";
-    $email_subject = "New form submissions";
+    $email_subject = "Mokkoji Shabu Shabu: Contact us";
 
     function problem($error)
     {
