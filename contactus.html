@@ -62,45 +62,50 @@
 
 
 <!--- Form --->
-<div class="container-fluid padding darkpgbody">
+<div class="container-fluid padding ">
 <div class="row text-center padding">
 <div class="col-md-3">
 </div>
 <div class="col-md-6">
 
-<div class="contact-body">
-<div id="contact-form">
-<form id="contact-form-id" class="contact-form-class" method="post" action="contact-form-process.php">
-    <h3 align=center>Contact Us</h3>
-		<h4 align=center>We'll get back to you as soon as possible!</h4>
-		<br>
-    <div class="contact-form-group">
-        <label for="Name" class="contact-label">Your name:</label>
-        <div class="contact-input-group">
-            <input type="text" id="Name" name="Name" class="contact-form-control" required>
+<div class="fcf-body">
+
+    <div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
         </div>
-    </div>
 
-    <div class="contact-form-group">
-        <label for="Email" class="contact-label">Your email address:</label>
-        <div class="contact-input-group">
-            <input type="email" id="Email" name="Email" class="contact-form-control" required>
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
         </div>
-    </div>
 
-    <div class="contact-form-group">
-        <label for="Message" class="contact-label">Your message:</label>
-        <div class="contact-input-group">
-            <textarea id="Message" name="Message" class="contact-form-control" rows="6" maxlength="3000" required></textarea>
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
         </div>
-    </div>
 
-    <div class="contact-form-group">
-        <button type="submit" id="contact-button" class="contact-btn contact-btn-primary contact-btn-lg contact-btn-block">Send Message</button>
-    </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
 
-</form>
-</div>
+        <div class="fcf-credit" id="fcf-credit">
+        Simple HTML email form provided by: <a href="https://www.freecontactform.com" target="_blank">FreeContactForm.com</a>
+        </div>
+
+    </form>
+    </div>
 
 </div>
 </div>
