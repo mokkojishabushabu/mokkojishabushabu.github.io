@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,500,700');
 
 html, body {
   height: 100%;
@@ -6,6 +7,28 @@ html, body {
   font-family: 'Raleway'
 }
 
+
+#home {
+  background: url(Elements/darkhome.jpg) no-repeat center center fixed;
+  display: table;
+  height:500px;
+  position:relative;
+  width:100%;
+  background-size: cover
+}
+
+.landing-text {
+  font-family: 'Muli';
+  color: white;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle
+}
+
+.landing-text h2 {
+  font-size: 350%;
+  font-weight: 1000
+}
 .jumboimg {
     display: block;
     max-width: 100%;
