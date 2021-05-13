@@ -13,10 +13,7 @@ html, body {
     width: auto;
     height: auto;
 }
-.container {
-  width: 100%;
-  display: block
-}
+
 .pgbody {
   background-color: #FFFFFF;
 }
