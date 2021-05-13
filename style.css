@@ -73,6 +73,10 @@ footer {
   font-size: 13px;
 }
 
+.menuimg{
+  max-width: 100%;
+}
+
 footer a {
   color:white;
   padding: 15px;
