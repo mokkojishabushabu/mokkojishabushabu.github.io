@@ -6,6 +6,10 @@ html, body {
   font-family: 'Raleway'
 }
 
+.container {
+  width: 100%;
+  object-fit: contain;
+}
 .pgbody {
   background-color: #FFFFFF;
 }
