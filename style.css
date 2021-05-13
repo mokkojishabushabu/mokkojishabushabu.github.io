@@ -51,7 +51,9 @@ html, body {
 }
 
 
-
+.carousel-item-home{
+  height:550px;
+}
 
 .carousel-inner img {
   width:100%;
