@@ -6,6 +6,13 @@ html, body {
   font-family: 'Raleway'
 }
 
+.jumboimg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
 .container {
   width: 100%;
   display: block
