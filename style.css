@@ -8,7 +8,7 @@ html, body {
 
 .container {
   width: 100%;
-  object-fit: contain;
+  display: block
 }
 .pgbody {
   background-color: #FFFFFF;
